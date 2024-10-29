@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/menubuttonprincipal" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menubuttonprincipal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:itemPaddingBottom="2dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bar"
+        android:background="@drawable/menubuttonfondo"/>
+    <!--app:itemIconTint="@drawable/menubuttonseleccionar"
+        app:itemTextColor="@drawable/menubuttonseleccionar"-->
+
+</RelativeLayout>

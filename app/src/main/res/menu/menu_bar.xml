@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/home"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/avatar"
+        android:icon="@drawable/add"
+        android:title="Avatar" />
+
+    <item
+        android:id="@+id/newoutfit"
+        android:icon="@drawable/camera"
+        android:title="Crear"/>
+
+    <item
+        android:id="@+id/categorias"
+        android:icon="@drawable/addcat"
+        android:title="Categoría"/>
+
+</menu>
